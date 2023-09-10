@@ -1,0 +1,479 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <title>Zdenko Portfolio</title>
+    </head>
+    <body>
+        <input type="radio" name="color" id="color-1">
+        <input type="radio" name="color" id="color-2">
+        <input type="radio" name="color" id="color-3">
+        <input type="radio" name="color" id="color-4">
+        <input type="radio" name="color" id="color-5">
+        <input type="radio" name="color" id="color-6">
+        <input type="radio" name="color" id="color-7">
+        <input type="radio" name="color" id="color-8">
+        <input type="radio" name="color" id="color-9">
+        <input type="radio" name="color" id="color-10">
+        <input type="checkbox" id="toggler">
+        <input type="checkbox" id="day-night">
+
+
+        <div class="style__switcher">
+            <label for="toggler" class="style__switcher-toggler">
+                <i class="fa-solid fa-gear fa-spin"></i>
+            </label>
+            <label for="day-night" class="style__switcher-theme">
+                <i class="fa-solid fa-sun"></i>
+                <i class="fa-solid fa-moon"></i>
+            </label>
+            <h3 class="style__switcher-title">Theme Colors</h3>
+            <div class="style__switcher-colors">
+                <label for="color-1" class="color-1 color"></label>
+                <label for="color-2" class="color-2 color"></label>
+                <label for="color-3" class="color-3 color"></label>
+                <label for="color-4" class="color-4 color"></label>
+                <label for="color-5" class="color-5 color"></label>
+                <label for="color-6" class="color-6 color"></label>
+                <label for="color-7" class="color-7 color"></label>
+                <label for="color-8" class="color-8 color"></label>
+                <label for="color-9" class="color-9 color"></label>
+                <label for="color-10" class="color-10 color"></label>
+            </div>
+        </div>
+
+
+
+        <header class="header" >
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo">Zdenko</a>
+                <input type="checkbox" id="nav-toggler">
+                <label for="nav-toggler" class="nav__toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">Experience</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">Portfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content">
+                        <span class="home__small">Hello</span>
+                        <h1 class="home__title">
+                          <span>I'm</span> Zdenko <br> 
+                          a <span class="typing" id="typing">Web Developer</span> 
+                        </h1>
+                        <p class="home__description">
+                            Hello, my name is Zdenko. I'm a young person who is interested in web applications and coding.
+                            Since I was a child, I have been interested in computers, websites.
+                            And now I have decided that it will be my goal to make a living from this awesome work.</p>
+                        <div class="home__bnts">
+                            <a href="#contact" class="btn">Hire Me</a>
+                            <a href="#portfolio" class="btn btn--transparent">Portfolio</a>
+                        </div>
+                    </div>
+                    <div class="home__img-wrapper">
+                        <img src="assets/img/Zdenko.png" alt="" class="home__img"  width="400px">
+                    </div>
+                </div>
+            </section>
+
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__img-wrapper">
+                        <img src="./assets/img/Android-Studio.webp" alt="" class="about__img">
+                        <img src="./assets/img/Android-Studio.webp" alt="" class="about__img">
+                        <img src="./assets/img/Android-Studio.webp" alt="" class="about__img">
+                        <img src="./assets/img/Android-Studio.webp" alt="" class="about__img">
+                    </div>
+                    <div class="about__content">
+                        <h2 class="section__title" data-title="Who am i?">
+                            I'm Zdenko Maro, a Web Developer and React Developer
+                        </h2>  
+                        <p class="about__description">
+                            I have been doing web development for over a few years now. I have experience with a variety of technologies including React, Javascript ES6, Sass and many others.
+                            Do I know everything? Not by a long shot... But I will certainly be a great support to your team.
+                        </p>
+                        <ul class="about__data grid">
+                            <li class="data__item">
+                                <h3 class="data__title">Name:</h3>
+                                <span class="data__description">Zdenko Maro</span>
+                            </li>
+                            <li class="data__item">
+                                <h3 class="data__title">Age:</h3>
+                                <span class="data__description">36 Years</span>
+                            </li>
+                            <li class="data__item">
+                                <h3 class="data__title">From:</h3>
+                                <span class="data__description">Prague, CZ</span>
+                            </li>
+                            <li class="data__item">
+                                <h3 class="data__title">Email</h3>
+                                <span class="data__description about__link">zdenkomaro@gmail.com</span>
+                            </li>
+                        </ul>  
+                        <div class="about__bottom">
+                            <a href="./assets/img/Zdenko_Maro_-_ (2).pdf" class="btn" target="_blank">Download CV</a>
+                            <div class="about__social-links">
+                                <a href="https://twitter.com/Jablckovica" target="_blank" class="about__social-link">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                                <a href="https://www.instagram.com/marozdenko/" target="_blank" class="about__social-link">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="https://www.facebook.com/zdenko.maro" target="_blank" class="about__social-link">
+                                    <i class="fa-brands fa-square-facebook"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/zdenko-maro-555b90124/" target="_blank" class="about__social-link">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </section>
+
+            <section class="qualification section" id="qualification">
+                <h2 class="section__title title-center" data-title="My Journey">Qualification</h2>
+                <div class="resume__container container grid">
+                    <div class="resume__group">
+                        <h3 class="resume__heading">Education</h3>
+                        <div class="resume__items">
+                            <div class="resume__item">
+                                <div class="resume__header">
+                                    <h3 class="resume__subtitle">Middle Vocational School of Civil Engineering</h3>
+                                    <span class="resume__icon">-</span>
+                                </div>
+                                <div class="resume__content">
+                                    <div class="resume__date-title">
+                                        <h3 class="resume__title">
+                                             Civil Engineering
+                                        </h3>
+                                        <span class="resume__date">2002 - 2007</span>
+                                    </div>
+                                    <p>Middle school graduated with a matriculation exam dealing with civil engineering
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="resume__item">
+                                <div class="resume__header">
+                                    <h3 class="resume__subtitle">
+                                        Elementary school M.R.Martáková 
+                                    </h3>
+                                    <span class="resume__icon">+</span>
+                                </div>
+                                <div class="resume__content">
+                                    <div class="resume__date-title">
+                                        <h3 class="resume__title">Elementary school</h3>
+                                        <span class="resume__date">1993 - 2002</span>
+                                    </div>
+                                    <p>A primary school dedicated to its students developing their potential
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="resume__group">
+                        <h3 class="resume__heading">Experience</h3>
+                        <div class="resume__items">
+                            <div class="resume__item">
+                                <div class="resume__header">
+                                    <h3 class="resume__subtitle">Customer Support Specialist for DE/AT/CH market</h3>
+                                    <span class="resume__icon">+</span>
+                                </div>
+                                <div class="resume__content">
+                                    <div class="resume__date-title">
+                                        <h3 class="resume__title">Notino</h3>
+                                        <span class="resume__date">2023 - Present</span>
+                                    </div>
+                                    <p>- Communication with customers via email or phone call</p>
+                                    <p>- Based on the communication, resolving the problem with the order ( complaint, withdrawal from the purchase
+                                        contract, order editing, feature promotions/coupons, sending product, receiving complaints, communication
+                                        with transport companies, verifying CCTV footage whether the product has been packed with us,
+                                        fraud screening)</p>
+                                    <p>- Communication with other departments</p> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Merchant Support Representative</h3>
+                                <span class="resume__icon">-</span>
+                            </div>
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">Global Payments Europe</h3>
+                                    <span class="resume__date">2023 - 2023</span>
+                                </div>
+                                <p>- Timely and accurate communication with merchants via email or phone</p>
+                                <p>- Resolving merchant complaints such as missing payments, statements, access to user accounts on the portal,
+                                    Navigating through the client portal, missed payment, incurred receivable, declined
+                                    transaction and charging fees to clients.</p>
+                                <p>- Resolving incidents arising from card acceptance with a focus on preventing fraudulent transactions.</p>
+                                <p>- Maintain employer confidentiality and trade secrets</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="services section" id="services">
+                <h2 class="section__title title-center" data-title="Services">What I do for you</h2>
+                <div class="services__container container grid">
+                    <div class="services__item">
+                        <i class="fa-solid fa-pen-to-square services__icon"></i>
+                        <h3 class="services__title">Web design</h3>
+                        <p class="services__description">Web design that captures the attention and the senses</p>
+                        <span class="services__no">01</span>
+                    </div>
+                    <div class="services__item">
+                        <i class="fa-solid fa-laptop services__icon"></i>
+                        <h3 class="services__title">Application creation</h3>
+                        <p class="services__description">Making an application that will make your life easier now and in the future</p>
+                        <span class="services__no">02</span>
+                    </div>
+                    <div class="services__item">
+                        <i class="fa-solid fa-chart-area services__icon"></i>
+                        <h3 class="services__title">2D game creation</h3>
+                        <p class="services__description">Creation of 2D games that will fascinate young and old alike</p>
+                        <span class="services__no">03</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="skills section">
+                <h2 class="section__title title-center" data-title="My talent">
+                    Professional Skills
+                </h2>
+                <div class="skills__container container grid">
+                    <div class="skills__item">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">HTML/CSS</h3>
+                            <span class="skills__no">80%</span>
+                        </div>
+                        <p class="skills__description">Layout, Responsive design, Animation, Boostrap, Grid systems, Flexbox, </p>
+                        <div class="skills__bar">
+                           <div class="skills__percentage" style="width: 80%">
+                            <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">CSS preprocesory: Sass</h3>
+                            <span class="skills__no">70%</span>
+                        </div>
+                        <p class="skills__description">Mathematical operations, mixins, loops, functions, imports</p>
+                        <div class="skills__bar">
+                            <div class="skills__percentage"style="width: 70%">
+                                 <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">JavaScript and ES6</h3>
+                            <span class="skills__no">60%</span>
+                        </div>
+                        <p class="skills__description">SVG, NPM, Babel, Parcel, Yarn, Webpack, NPM build</p>
+                        <div class="skills__bar">
+                           <div class="skills__percentage" style="width: 60%" >
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">JQuery</h3>
+                            <span class="skills__no">65%</span>
+                        </div>
+                        <p class="skills__description">DOM, jQuery animation, Events, Lightbox, Slider, AJAX, UI, Plugins, Parallax effect</p>
+                        <div class="skills__bar">
+                           <div class="skills__percentage" style="width: 65%">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">React</h3>
+                            <span class="skills__no">50%</span>
+                        </div>
+                        <p class="skills__description">Hooks, AJAX, UI, Plugins, Parallax effect  Plugins, Parallax effect Plugins, Parallax effect</p>
+                        <div class="skills__bar">
+                           <div class="skills__percentage" style="width: 50%">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Git</h3>
+                            <span class="skills__no">70%</span>
+                        </div>
+                        <p class="skills__description">Basics of Git  Plugins, Parallax effect  Plugins, Parallax effect  Plugins, Parallax effect</p>
+                        <div class="skills__bar">
+                           <div class="skills__percentage" style="width: 70%">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="work section" id="work">
+                <h2 class="section__title title-center" data-title="My Portfolio">
+                    Recent Works
+                </h2>
+                <div class="work__container container grid">
+                    <div class="work__card">
+                        <img src="./assets/img/project-img-1.jpg" alt="" class="work__img">
+                        <div class="work__details">
+                            <h3 class="work__title">E-commerce</h3>
+                            <span class="work__description">This is a short work__description</span>
+                        </div>
+                    </div>
+                    <div class="work__card">
+                        <img src="./assets/img/project-img-2.jpg" alt="" class="work__img">
+                        <div class="work__details">
+                            <h3 class="work__title">E-commerce</h3>
+                            <span class="work__description">This is a short work__description</span>
+                        </div>
+                    </div>
+                    <div class="work__card">
+                        <img src="./assets/img/project-img-3.jpg" alt="" class="work__img">
+                        <div class="work__details">
+                            <h3 class="work__title">E-commerce</h3>
+                            <span class="work__description">This is a short work__description</span>
+                        </div>
+                    </div>
+                    <div class="work__card">
+                        <img src="./assets/img/project-img-4.jpg" alt="" class="work__img">
+                        <div class="work__details">
+                            <h3 class="work__title">E-commerce</h3>
+                            <span class="work__description">This is a short work__description</span>
+                        </div>
+                    </div>
+                    <div class="work__card">
+                        <img src="./assets/img/project-img-5.jpg" alt="" class="work__img">
+                        <div class="work__details">
+                            <h3 class="work__title">E-commerce</h3>
+                            <span class="work__description">This is a short work__description</span>
+                        </div>
+                    </div>
+                    <div class="work__card">
+                        <img src="./assets/img/project-img-6.jpg" alt="" class="work__img">
+                        <div class="work__details">
+                            <h3 class="work__title">E-commerce</h3>
+                            <span class="work__description">This is a short work__description</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="contact section" id="contact">
+                <h2 class="section__title title-center" data-title="Get in touch">
+                    Contact Me
+                </h2>
+                <div class="contact__container container grid">
+                    <div class="contact__details">
+                        <div class="contact__item">
+                            <i class="fa-solid fa-phone contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Call Us</h3>
+                                <span class="contact__data">+776 507 554</span>
+                            </div>
+                        </div>
+                         <div class="contact__item">
+                            <i class="fa-solid fa-envelope contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Email Us</h3>
+                                <span class="contact__data">zdenkomaro@gmail.com</span>
+                            </div>
+                        </div>
+                            <div class="contact__item">
+                                <i class="fa-solid fa-location-dot contact__icon"></i>
+                                <div>
+                                    <h3 class="contact__title">Adress</h3>
+                                    <span class="contact__data">Kodaňská 1459/48, Praha 10 - Vršovice 100 00</span>
+                                </div>
+                            </div>
+                        </div>
+                    <form action="#" class="contact__form">
+                        <div class="form__group">
+                            <div class="form__input">
+                                <input type="text" name="name" placeholder="Name" class="input__control">
+                            </div>
+                            <div class="form__input">
+                                <input type="email" name="email" placeholder="Email" class="input__control">
+                            </div>
+                        </div>                  
+                         <div class="form__input">
+                                <input type="text" name="subject" placeholder="Subject" class="input__control">
+                        </div>
+                        <div class="form__input">
+                                <textarea
+                                 name="textarea" 
+                                 id="" 
+                                 placeholder="Message"
+                                 cols="30" 
+                                 rows="10" 
+                                 class="input__control textarea"
+                                 ></textarea>   
+                        </div>
+                        <input type="submit" name="button" class="btn contact__btn" value="Send Message">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container container">
+                <p class="footer__copyright">&copy; 2023 Zdenko. All Rights Reserved</p>
+                <div class="footer__social-links">
+                    <a href="https://twitter.com/Jablckovica" target="_blank" class="footer__social-link">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/marozdenko/" target="_blank" class="footer__social-link">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/zdenko.maro" target="_blank" class="footer__social-link">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/zdenko-maro-555b90124/" target="_blank" class="footer__social-link">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./js/app.js"></script>
+    </body>
+</html>
